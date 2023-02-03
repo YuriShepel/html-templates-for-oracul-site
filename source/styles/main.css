@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+
+body {
+  font-family: "Lobster", serif;
+  font-size: 20px;
+  background: linear-gradient(90deg, #5121c7 0%, #b495f5 100%);
+  color: black;
+}
+
+.main-section {
+  margin-top: 15px;
+}
+
+.left-navbar {
+  margin: 0px;
+  padding: 0px;
+}
+.main-section .left-navbar h4 {
+  height: 50px;
+  background: linear-gradient(360deg, #030631 0%, #a1a5d4 100%);
+  border-radius: 5px 5px 0px 0px;
+  font-size: 1.5rem;
+  line-height: 20px;
+  color: black;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.main-section .left-navbar .menu {
+  background: linear-gradient(90deg, #b495f5 0%, #5121c7 100%);
+  border-left: 1px solid brown;
+  border-right: 1px solid brown;
+  border-bottom: 1px solid brown;
+  border-radius: 0 0 5px 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-section .left-navbar .menu li a {
+  color: #030303;
+  line-height: 5px;
+}
+
+.main-section .left-navbar .menu li {
+  padding-left: 15px;
+  padding-right: 10px;
+  margin-bottom: 7px;
+}
+
+.main-section .left-navbar .menu li:hover {
+  font-weight: 900;
+}
+.main-section .left-navbar .menu li a:hover {
+  color: black;
+}
+
+.articles-block {
+  background: linear-gradient(90deg, #b495f5 0%, #5121c7 100%);
+}
+
+.articles-block h2 {
+  font-size: 25px;
+  color: #111011;
+}
+.articles-block p a {
+  color: white;
+}
