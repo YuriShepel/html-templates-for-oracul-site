@@ -142,6 +142,10 @@ footer {
 .minor-arcana-row {
   padding-left: 90px;
   padding-right: 90px;
+  padding-bottom: 20px;
+  border-top: 1px solid aqua;
+  border-bottom: 1px solid aqua;
+  margin-bottom: 20px;
 }
 .card {
   background: linear-gradient(270deg, #00009c 0%, #000000 100%);
@@ -153,4 +157,8 @@ footer {
   color: aqua;
   background: linear-gradient(270deg, #00009c 0%, #000000 100%);
   font-size: 15px;
+}
+
+.card-img-top:hover {
+  width: 152px;
 }

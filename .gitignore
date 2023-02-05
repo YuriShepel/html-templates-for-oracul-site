@@ -183,3 +183,7 @@ Scripts/
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# project files
+source/files
+source/images
