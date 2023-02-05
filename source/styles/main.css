@@ -10,7 +10,7 @@ body {
 /* header scc */
 
 .navbar {
-  border-bottom: 1px solid aqua;
+  border-bottom: 0.1px solid aqua;
 }
 .main-container a {
   color: aquamarine;
@@ -26,6 +26,9 @@ body {
 
 .navbar-brand img {
   width: 45px;
+}
+.nav-item {
+  margin-left: 30px;
 }
 
 /* left navbar css */
@@ -108,5 +111,23 @@ body {
   font-weight: 900;
 }
 .articles-block p a:hover {
+  font-weight: 900;
+}
+
+/* footer css */
+footer {
+  border-top: 1px solid aqua;
+  padding: 20px;
+}
+
+.footer-text {
+  margin: auto auto;
+}
+
+.footer-text a {
+  color: aquamarine;
+}
+.footer-text a p:hover {
+  color: aqua;
   font-weight: 900;
 }
