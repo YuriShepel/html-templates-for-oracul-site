@@ -131,3 +131,26 @@ footer {
   color: aqua;
   font-weight: 900;
 }
+
+/* tarot_guideline */
+.major-arcana,
+.minor-arcana {
+  display: flex;
+  justify-content: center;
+}
+
+.minor-arcana-row {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.card {
+  background: linear-gradient(270deg, #00009c 0%, #000000 100%);
+}
+.card-img-top {
+  width: 150px;
+}
+.btn-primary {
+  color: aqua;
+  background: linear-gradient(270deg, #00009c 0%, #000000 100%);
+  font-size: 15px;
+}
