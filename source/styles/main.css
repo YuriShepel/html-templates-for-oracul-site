@@ -77,9 +77,6 @@ body {
 }
 
 /* content block css */
-.content-block .title-image {
-  width: 300px;
-}
 
 .image-block:hover img {
   transform: scale(1.1);
@@ -147,7 +144,6 @@ footer {
 .major-arcana,
 .minor-arcana {
   display: flex;
-  justify-content: center;
 }
 
 .minor-arcana-row {
@@ -165,14 +161,12 @@ footer {
 .card-image:hover img {
   transform: scale(1.1);
 }
-img {
-  width: 150px;
+
+.card-img-top {
+  width: 190px;
   transition: transform 0.4s;
 }
 
-.card-img-top {
-  width: 152px;
-}
 .card-image {
   overflow: hidden;
 }
