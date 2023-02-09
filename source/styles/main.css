@@ -176,3 +176,25 @@ footer {
   background: linear-gradient(270deg, #00009c 0%, #000000 100%);
   font-size: 15px;
 }
+
+/* tarot list css */
+
+.suits-info-text {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.suits-info-text p {
+  color: aqua;
+  font-size: 20px;
+}
+
+.suits-info-text p:hover {
+  transition: transform 0.6s;
+  transform: scale(1.1);
+}
+
+.card-button:hover {
+  transition: transform 0.6s;
+  transform: scale(1.1);
+}
