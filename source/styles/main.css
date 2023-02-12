@@ -31,6 +31,16 @@ body {
   margin-left: 30px;
 }
 
+.navbar-brand {
+  animation: rotateHue 4s alternate infinite;
+}
+
+@keyframes rotateHue {
+  to {
+    filter: hue-rotate(1turn);
+  }
+}
+
 /* left navbar css */
 .main-section {
   margin-top: 15px;
@@ -202,8 +212,8 @@ footer {
 /* suite description css */
 
 .article-title {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: 900;
 }
 
@@ -221,4 +231,10 @@ td {
 
 .bottom-image {
   border-top: 1px solid aquamarine;
+}
+
+/* card description css */
+
+table .tag-text {
+  font-style: italic;
 }
